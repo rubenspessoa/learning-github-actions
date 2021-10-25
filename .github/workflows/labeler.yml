@@ -1,8 +1,5 @@
 name: Labeler
-on:
-  pull_request:
-    branches:
-    - feature/*
+on: [pull_request]
 
 jobs:
   label:
