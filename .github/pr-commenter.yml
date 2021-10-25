@@ -1,0 +1,19 @@
+comment:
+  on-update: recreate
+  header: |
+    Thank you for contributing to this repository :tada:.
+
+  footer: |
+    ---
+    Automated comment created by [PR Commenter](https://github.com/exercism/pr-commenter-action) :robot:.
+
+  snippets:
+    - id: any-scanning-proxy-text-file-changed
+      files:
+        - 'test/*.*'
+      body: |
+        It looks like you're changing one or some of the Text Management-related files. :guardsman:
+        Make sure your changes don't affect the previously fixed issues. 
+        You can find the manual test cases in [Confluence](https://itranslate.atlassian.net/wiki/spaces/GI/pages/edit-v2/2797699073). :construction_worker:
+
+	Happy coding! :smile:
