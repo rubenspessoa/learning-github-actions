@@ -1,9 +1,11 @@
 name: "PR Commenter"
 on:
-  pull_request:
+  push:
     branches:
-      - '**/feature/**'
-      - feature/**
+      - "**/feature/**"
+      - "feature/**"
+  pull_request:
+    types: [ opened, synchronize, reopened ]
 
 jobs:
 
