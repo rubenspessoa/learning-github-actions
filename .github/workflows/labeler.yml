@@ -1,6 +1,6 @@
 name: Labeler
 on:
-  pull_request:
+  push:
     branches: 
       - "**/feature/**"
       - "feature/**"
