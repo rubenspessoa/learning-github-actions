@@ -2,8 +2,8 @@ name: Labeler
 on:
   pull_request:
     branches: 
-      - '**/feature/**'
-      - feature/**
+      - "**/feature/**"
+      - "feature/**"
 
 jobs:
   label:
