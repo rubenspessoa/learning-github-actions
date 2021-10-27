@@ -1,7 +1,5 @@
 name: Labeler
 on:
-  pull_request_target:
-    types: [assigned, opened, reopened] 
   pull_request:
     branches: 
       - '**/feature/**'
